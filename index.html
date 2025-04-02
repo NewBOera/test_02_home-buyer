@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SaleHomeLand - Home Buyer Readiness Checkup</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
     <link
       rel="shortcut icon"
       href="https://cdn.salehomeland.com/home-assets/logo-001.png"
@@ -17,7 +18,16 @@
       <div class="container mx-auto px-6 py-3">
         <div class="flex items-center justify-between">
           <div class="h-8">
-            <img src="[YOUR-LOGO-URL]" alt="SaleHomeLand" class="h-full" />
+            <a
+              href="#hero"
+              class="text-gray-600 hover:text-gray-900 cursor-pointer"
+            >
+              <img
+                src="https://cdn.salehomeland.com/home-assets/logo-001.png"
+                alt="SaleHomeLand"
+                class="h-full"
+              />
+            </a>
           </div>
           <div class="hidden md:flex space-x-8 items-center">
             <a href="#hero" class="text-gray-600 hover:text-gray-900">Home</a>
@@ -82,7 +92,7 @@
       id="hero"
       class="min-h-screen bg-cover bg-center flex items-center"
       style="
-        background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80');
+        background-image: url('https://cdn.salehomeland.com/home-assets/hero-desk.webp');
       "
     >
       <div class="container mx-auto px-6 relative z-10">
@@ -128,7 +138,7 @@
     <!-- Horizontal Image -->
     <div class="w-full h-64 md:h-96">
       <img
-        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80"
+        src="https://cdn.salehomeland.com/home-assets/about-us-desk.webp"
         alt="Modern home interior"
         class="w-full h-full object-cover"
       />
@@ -157,7 +167,7 @@
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/about-us-img-desk.webp"
               alt="Happy homeowners"
               class="rounded-lg shadow-xl"
             />
@@ -176,7 +186,7 @@
           <!-- Service Card 1 -->
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/card-001-desk.webp"
               alt="Financial Assessment"
               class="w-full h-48 object-cover"
             />
@@ -193,7 +203,7 @@
           <!-- Service Card 2 -->
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/card-002-desk.webp"
               alt="Market Analysis"
               class="w-full h-48 object-cover"
             />
@@ -209,7 +219,7 @@
           <!-- Service Card 3 -->
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1560518883-b33625c3a613?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/card-003-desk.webp"
               alt="Personalized Planning"
               class="w-full h-48 object-cover"
             />
@@ -247,7 +257,7 @@
             </p>
             <div class="flex items-center">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80"
+                src="https://cdn.salehomeland.com/home-assets/person_2.png"
                 alt="Customer"
                 class="w-12 h-12 rounded-full mr-4"
               />
@@ -266,7 +276,7 @@
             </p>
             <div class="flex items-center">
               <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80"
+                src="https://cdn.salehomeland.com/home-assets/person_1.png"
                 alt="Customer"
                 class="w-12 h-12 rounded-full mr-4"
               />
@@ -285,7 +295,7 @@
             </p>
             <div class="flex items-center">
               <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80"
+                src="https://cdn.salehomeland.com/home-assets/person_3.png"
                 alt="Customer"
                 class="w-12 h-12 rounded-full mr-4"
               />
@@ -305,12 +315,22 @@
         <h2 class="text-4xl font-bold text-gray-900 text-center mb-4">
           Investment Plans
         </h2>
-        <p class="text-center text-gray-600 mb-12">Our Tariffs</p>
+        <p
+          class="text-center text-gray-600 mb-12 border rounded-lg"
+          style="
+            width: fit-content;
+            margin: 3rem auto;
+            padding: 0.5rem 1rem;
+            background: #f7f7f7;
+          "
+        >
+          Our Tariffs
+        </p>
         <div class="grid md:grid-cols-3 gap-8">
           <!-- Basic Plan -->
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/prince-card-001.webp"
               alt="Basic Plan"
               class="w-full h-48 object-cover"
             />
@@ -345,7 +365,7 @@
             class="bg-white rounded-lg shadow-lg overflow-hidden transform scale-105"
           >
             <img
-              src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/prince-card-002.webp"
               alt="Premium Plan"
               class="w-full h-48 object-cover"
             />
@@ -380,7 +400,7 @@
           <!-- Elite Plan -->
           <div class="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80"
+              src="https://cdn.salehomeland.com/home-assets/prince-card-003.webp"
               alt="Elite Plan"
               class="w-full h-48 object-cover"
             />
@@ -436,7 +456,7 @@
             </p>
             <div class="w-full h-64 rounded-lg overflow-hidden mb-8">
               <img
-                src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&q=80"
+                src="https://cdn.salehomeland.com/home-assets/form-desk.webp"
                 alt="Our team ready to help"
                 class="w-full h-full object-cover"
               />
@@ -675,7 +695,7 @@
           <div class="text-center md:text-left">
             <div class="mb-6">
               <img
-                src="[YOUR-LOGO-URL]"
+                src="https://cdn.salehomeland.com/home-assets/logo-002.png"
                 alt="SaleHomeLand"
                 class="h-12 mx-auto md:mx-0"
               />
